@@ -1,7 +1,0 @@
-Title: One dimensional diffusion across a membrane
-Slug: diffusion_1d
-Date: 2018-02-24 01:00
-Category: ODEs
-Tags: python, diffusion, scipy, matplotlib
-Author: Moritz Imendörffer
-Summary: 1D diffusion across a membrane solved with scipy's integrators.

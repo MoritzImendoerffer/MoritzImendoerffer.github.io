@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Moritz Imendörffer'
-SITENAME = 'A good day for a good day'
-SITEURL = 'http://MoritzImendoerffer.github.io'
+SITENAME = 'This is a good day for a good day'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -33,7 +33,3 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-MARKUP = ('md', 'ipynb')
-
-PLUGIN_PATH = './plugins'
-PLUGINS = ['ipynb.markup']
