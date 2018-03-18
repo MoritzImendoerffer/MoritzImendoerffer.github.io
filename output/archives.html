@@ -1,64 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
         <title>This is a good day for a good day</title>
+        <meta charset="utf-8" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="This is a good day for a good day Full Atom Feed" />
         <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="This is a good day for a good day Atom Feed" />
-
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
+        <!--[if lte IE 8]><link rel="stylesheet" href="/theme/css/ie8.css" /><![endif]-->
 </head>
 
-<body id="index" class="home">
+<body>
         <header id="banner" class="body">
-                <h1><a href="/">This is a good day for a good day </a></h1>
-                <nav><ul>
-                    <li><a href="/category/about-me.html">About me</a></li>
-                    <li><a href="/category/odes.html">ODEs</a></li>
-                </ul></nav>
+                <h1><a href="/">This is a good day for a good day <strong></strong></a></h1>
         </header><!-- /#banner -->
-<section id="content" class="body">
-<h1>Archives for This is a good day for a good day</h1>
+<!-- Sidebar -->
+            <div id="sidebar">
 
-<dl>
-    <dt>So 25 Februar 2018</dt>
-    <dd><a href="/coupled_ode.html">Coupled ODEs</a></dd>
-    <dt>Sa 24 Februar 2018</dt>
-    <dd><a href="/diffusion_1d.html">One dimensional diffusion across a membrane</a></dd>
-    <dt>Fr 23 Februar 2018</dt>
-    <dd><a href="/about.html">About this site</a></dd>
-</dl>
-</section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
+                <!-- Logo -->
+                    <h1 id="logo"><a href="/">This is a good day for a good day</a></h1>
+                    <!-- Text -->
+                    <section class="box text-style1">
+                        <div class="inner">
+                            <p>
+                                <strong>Some useful sites:</strong><br />
+                            </p>
+                        </div>
+                    </section>
+                <!-- Nav -->
+                    <nav id="nav">
                         <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
+			    <li><a href="https://github.com/dabeaz/python-cookbook">A great resource for mastering python</a></li> 
+                            <li><a href="https://www.scipy-lectures.org/">Scipy lecture notes</a></li>
+			    <li><a href="https://pandas.pydata.org/pandas-docs/stable/10min.html">10 minutes to pandas</a></li>
+                            <li><a href="https://seaborn.pydata.org/">Seaborn for data visualization</a></li>
+                            <li><a href="https://www.dataquest.io/blog//">A great blog on datascience</a></li>
+			    <li><a href="https://micropython.org/">Python instead of Arduino`s clumsy IDE</a></li>
+			    <li><a href="https://www.volvooceanrace.com/en/home.html">Always inspiring to watch this race around the world</a></li>
                         </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
+                    </nav>
+
+                <!-- Search -->
+                    <!-- <section class="box search">
+              
+
+                <!-- Recent Posts -->
+                         <form method="post" action="#">
+                            <input type="text" class="text" name="search" placeholder="Search" />
+                        </form>
+                    </section> -->
+
+                     <section class="box recent-posts">
+                        <header>
+                            <h2>Contact Me</h2>
+                        </header>
                         <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
+                            <li><a class="icon fa-envelope" href="#"> eMail</a></li>
+                            <li><a class="icon fa-github" href="MoritzImendoerffer.github.com"> Github</a></li>
+                            
                         </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+                    </section>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
 
+                <!-- Copyright -->
+                    <ul id="copyright">
+                        <li>Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.</li>
+                        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>Modified under a <a href="https://creativecommons.org/licenses/by/3.0/">CC:BY</a> license.</li>
+                    </ul>
+
+            </div><!-- /#menu -->
+<div id="content">
+<div class="inner">
+<article class="box post post-excerpt">
+<h2>Archives for This is a good day for a good day</h2>
+
+<header> 
+    <h2>Do 22 März 2018</h2>
+    <p><a href="/matplotlib_part1.html">Pretty plots with Matplotlib part 1</a></p>
+    <p></p>
+    <h2>So 25 Februar 2018</h2>
+    <p><a href="/coupled_ode.html">Coupled ODEs</a></p>
+    <p></p>
+    <h2>Sa 24 Februar 2018</h2>
+    <p><a href="/diffusion_1d.html">One dimensional diffusion across a membrane</a></p>
+    <p></p>
+</header>
+</article>
+</div>
+</div>
+<!-- /#contentinfo -->
 </body>
 </html>

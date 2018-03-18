@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Moritz Imendörffer'
 SITENAME = 'This is a good day for a good day'
-SITEURL = ''
+SITEURL = 'http://MoritzImendoerffer.github.io'
 
 PATH = 'content'
 
@@ -22,7 +22,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
+         ('Scipy', 'http://scipy.org/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
@@ -36,5 +36,23 @@ DEFAULT_PAGINATION = 10
 
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATH = './plugins'
-PLUGINS = ['ipynb.markup']
+PLUGIN_PATH = ['./plugins', './pelican-plugins',]
+PLUGINS = ['ipynb.markup', 'i18n_subsites', 'tipue_search', 'neighbors']
+
+TYPOGRIFY = False
+
+#INDEX_SAVE_AS = 'blog.html'
+#PAGE_SAVE_AS = '{slug}.html'
+#PAGE_URL = '{slug}.html'
+
+PAGE_ORDER_BY = 'basename'
+LOAD_CONTENT_CACHE = False
+
+THEME = "my_themes/pelican-striped-html5up" # medius, html5-dopetrope, mg, pelican-fh5co-marble
+
+# Display pages list on the top menu
+DISPLAY_PAGES_ON_MENU = True
+
+# Display categories list on the top menu
+DISPLAY_CATEGORIES_ON_MENU = True
+
