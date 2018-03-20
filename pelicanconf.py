@@ -36,8 +36,11 @@ DEFAULT_PAGINATION = 10
 
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATH = ['./plugins', './pelican-plugins',]
+PLUGIN_PATH = ['./plugins', './pelican-plugins']
 PLUGINS = ['ipynb.markup', 'i18n_subsites', 'tipue_search', 'neighbors']
+#JINJA_ENVIRONMENT = {
+#    'extensions': ['jinja2.ext.i18n'],
+#}
 
 TYPOGRIFY = False
 
@@ -45,11 +48,11 @@ TYPOGRIFY = False
 #PAGE_SAVE_AS = '{slug}.html'
 #PAGE_URL = '{slug}.html'
 
-PAGE_ORDER_BY = 'basename'
+#PAGE_ORDER_BY = 'basename'
 LOAD_CONTENT_CACHE = False
 
 THEME = "my_themes/pelican-striped-html5up" # medius, html5-dopetrope, mg, pelican-fh5co-marble
-
+#THEME = "pelican-themes/pelican-bootstrap3"
 # Display pages list on the top menu
 DISPLAY_PAGES_ON_MENU = True
 
