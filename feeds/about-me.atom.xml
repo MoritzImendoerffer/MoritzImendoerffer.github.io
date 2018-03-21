@@ -1,81 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <title>About this site</title>
-        <meta charset="utf-8" />
-        <link href="http://MoritzImendoerffer.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="This is a good day for a good day Full Atom Feed" />
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <!--[if lte IE 8]><script src="/theme/js/ie/html5shiv.js"></script><![endif]-->
-        <!--[if lte IE 8]><link rel="stylesheet" href="/theme/css/ie8.css" /><![endif]-->
-</head>
-
-<body>
-        <header id="banner" class="body">
-                <h1><a href="http://MoritzImendoerffer.github.io/">This is a good day for a good day <strong></strong></a></h1>
-        </header><!-- /#banner -->
-<!-- Sidebar -->
-            <div id="sidebar">
-
-                <!-- Logo -->
-                    <h1 id="logo"><a href="/">This is a good day for a good day</a></h1>
-                    <!-- Text -->
-                    <section class="box text-style1">
-                        <div class="inner">
-                            <p>
-                                <strong>Some useful sites:</strong><br />
-                            </p>
-                        </div>
-                    </section>
-                <!-- Nav -->
-                    <nav id="nav">
-                        <ul>
-			    <li><a href="https://github.com/dabeaz/python-cookbook">A great resource for mastering python</a></li> 
-                            <li><a href="https://www.scipy-lectures.org/">Scipy lecture notes</a></li>
-			    <li><a href="https://pandas.pydata.org/pandas-docs/stable/10min.html">10 minutes to pandas</a></li>
-                            <li><a href="https://seaborn.pydata.org/">Seaborn for data visualization</a></li>
-                            <li><a href="https://www.dataquest.io/blog//">A great blog on datascience</a></li>
-			    <li><a href="https://micropython.org/">Python instead of Arduino`s clumsy IDE</a></li>
-			    <li><a href="https://www.volvooceanrace.com/en/home.html">Always inspiring to watch this race around the world</a></li>
-                        </ul>
-                    </nav>
-
-                <!-- Search -->
-                    <!-- <section class="box search">
-              
-
-                <!-- Recent Posts -->
-                         <form method="post" action="#">
-                            <input type="text" class="text" name="search" placeholder="Search" />
-                        </form>
-                    </section> -->
-
-                     <section class="box recent-posts">
-                        <header>
-                            <h2>Contact Me</h2>
-                        </header>
-                        <ul>
-                            <li><a class="icon fa-envelope" href="#"> eMail</a></li>
-                            <li><a class="icon fa-github" href="MoritzImendoerffer.github.com"> Github</a></li>
-                            
-                        </ul>
-                    </section>
-
-
-
-                <!-- Copyright -->
-                    <ul id="copyright">
-                        <li>Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.</li>
-                        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                        <li>Modified under a <a href="https://creativecommons.org/licenses/by/3.0/">CC:BY</a> license.</li>
-                    </ul>
-
-            </div><!-- /#menu -->
-    <h1>About this site</h1>
-    
-
-    <style type="text/css">/*!
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>This is a good day for a good day - About me</title><link href="http://MoritzImendoerffer.github.io/" rel="alternate"></link><link href="http://MoritzImendoerffer.github.io/feeds/about-me.atom.xml" rel="self"></link><id>http://MoritzImendoerffer.github.io/</id><updated>2018-02-23T00:00:00+01:00</updated><entry><title>About this site</title><link href="http://MoritzImendoerffer.github.io/about.html" rel="alternate"></link><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><author><name>Moritz Imendörffer</name></author><id>tag:moritzimendoerffer.github.io,2018-02-23:/about.html</id><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -302,7 +226,7 @@ div.unrecognized_cell .inner_cell a:hover {
   text-decoration: none;
 }
 @media (max-width: 540px) {
-  div.unrecognized_cell > div.prompt {
+  div.unrecognized_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -355,19 +279,19 @@ div.input_prompt {
   color: #303F9F;
   border-top: 1px solid transparent;
 }
-div.input_area > div.highlight {
+div.input_area &gt; div.highlight {
   margin: 0.4em;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-div.input_area > div.highlight > pre {
+div.input_area &gt; div.highlight &gt; pre {
   margin: 0px;
   border: none;
   padding: 0px;
   background-color: transparent;
 }
-/* The following gets added to the <head> if it is detected that the user has a
+/* The following gets added to the &lt;head&gt; if it is detected that the user has a
  * monospace font with inconsistent normal/bold/italic height.  See
  * notebookmain.js.  Such fonts will have keywords vertically offset with
  * respect to the rest of the text.  The user should select a better font.
@@ -413,7 +337,7 @@ div.input_area > div.highlight > pre {
 }
 /*
 
-Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Original style from softwaremaniacs.org (c) Ivan Sagalaev &lt;Maniac@SoftwareManiacs.Org&gt;
 Adapted from GitHub theme
 
 */
@@ -875,7 +799,7 @@ div.text_cell {
   align-items: stretch;
 }
 @media (max-width: 540px) {
-  div.text_cell > div.prompt {
+  div.text_cell &gt; div.prompt {
     display: none;
   }
 }
@@ -940,8 +864,8 @@ h6:hover .anchor-link {
   font-size: 100%;
   font-style: italic;
 }
-</style>
-<style type="text/css">.highlight .hll { background-color: #ffffcc }
+&lt;/style&gt;
+&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
@@ -1009,8 +933,8 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
-<style type="text/css">
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
+&lt;style type="text/css"&gt;
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -1046,18 +970,18 @@ h6:hover .anchor-link {
 .ansi-white-intense-bg { background-color: #A1A6B2; }
 
 .ansi-bold { font-weight: bold; }
-</style>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>What is this site about ?</strong></p>
-<p>Hi ! I am a bioprocess engineer who is fascinated by the python ecosystem. Since I discovered python, I am learning every day new and interesting things. This blog is one of those things. If you have any questions, feedback or found spelling mistakes, please feel free to contact my per mail. If some of the code snippets might help you on your way, feel free to use them as you wish.</p>
-</div>
-</div>
-</div>
+&lt;/style&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;strong&gt;What is this site about ?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is my data blog experiment. Everything under heavy development. If you find spelling mistakes, keep them. Cheers Moritz&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
@@ -1084,9 +1008,5 @@ h6:hover .anchor-link {
         "}); ";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-</script>
-
-
-<!-- /#contentinfo -->
-</body>
-</html>
+&lt;/script&gt;
+</content><category term="python"></category><category term="diffusion"></category><category term="scipy"></category><category term="matplotlib"></category></entry></feed>
