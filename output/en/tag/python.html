@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Authors - This is a good day for a good day</title>
+    <title>python - This is a good day for a good day</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -174,23 +174,24 @@ init_mathjax();
 </script>
 
 
-        <meta name="author" content="Moritz Imendörffer" />
+    <meta name="author" content="Moritz Imendörffer" />
+    <meta name="keywords" content="python" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="This is a good day for a good day" />
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="This is a good day for a good day"/>
-        <meta property="og:url" content=""/>
+        <meta property="og:url" content="/en"/>
         <meta property="og:description" content="This is a good day for a good day"/>
 
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="/theme/css/bootstrap.sandstone.min.css" type="text/css"/>
-    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/en/./theme/css/bootstrap.sandstone.min.css" type="text/css"/>
+    <link href="/en/./theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="/theme/css/pygments/native.css" rel="stylesheet">
-    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+    <link href="/en/./theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="/en/./theme/css/style.css" type="text/css"/>
 
 
 
@@ -208,22 +209,22 @@ init_mathjax();
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="/" class="navbar-brand">
+            <a href="/en/" class="navbar-brand">
 This is a good day for a good day            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li><a href="/pages/about.html">
+                         <li><a href="/en/pages/about.html">
                              About this site
                           </a></li>
                         <li >
-                            <a href="/category/about-me.html">About me</a>
+                            <a href="/en/category/about-me.html">About me</a>
                         </li>
                         <li >
-                            <a href="/category/odes.html">Odes</a>
+                            <a href="/en/category/odes.html">Odes</a>
                         </li>
                         <li >
-                            <a href="/category/visualization.html">Visualization</a>
+                            <a href="/en/category/visualization.html">Visualization</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -237,8 +238,71 @@ This is a good day for a good day            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-  <h1>Authors on This is a good day for a good day</h1>
-        <li><a href="/author/moritz-imendorffer.html">Moritz Imendörffer</a> (5)</li>
+            <article>
+                <h2><a href="/en/matplotlib_part1.html">Pretty plots with Matplotlib part 1</a></h2>
+                <div class="summary">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In designed experiments it is quite common to have multiple measurements at the same conditions (duplicates, triplicates etc.). From the perspective of data analysis that means, multiple points might share the same location on the x axis but the y values are different. There are many options which could be used for plotting, some of which are: <a href="https://matplotlib.org/examples/statistics/index.html">Matplotlib style plots</a>
+                    <a class="btn btn-default btn-xs" href="/en/matplotlib_part1.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="/en/pretty-plots-with-matplotlib-part-2.html">Pretty plots with Matplotlib part 2</a></h2>
+                <div class="summary">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This notebook is the second part of a series showing some of my plots I came up with over time.</p>
+<p>Especially for timeseries data <a href="https://pandas.pydata.org/">pandas</a> excels. Together with matplotlib, HPLC chromatograms can be plotted in a very convenient way.</p>
+<p>In a typical lab, data is commonly exported by a software in some sort of "user friendly" format. Let us assume we have a bunch of chromatograms stored as [time, rau] pairs in several sheets within one Excel file. Each sheet name corresponds to the sample name. Currently I do not have a dummy data generator for chromatograms, so this example will be a theoretical one.</p>
+                    <a class="btn btn-default btn-xs" href="/en/pretty-plots-with-matplotlib-part-2.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="/en/coupled_ode.html">Coupled ODEs</a></h2>
+                <div class="summary">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This example shows how to couple differential equations and solve them numerically with python, on hand of protein refolding as a showcase. We will consider a very basic example neglecting effects like molecular crowding or the influence of chaperons on the refolding process. Protein refolding is a multi step process which can be described as outlined below:</p>
+                    <a class="btn btn-default btn-xs" href="/en/coupled_ode.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="/en/diffusion_1d.html">One dimensional diffusion across a membrane</a></h2>
+                <div class="summary">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This notebook is inspired by the chapter "Cells and Diffusion" in the book <a href="http://www.robertocezar.com.br/documentos/livros/livros/plantphysiology.pdf">Physiochemical and Environmental Plant Physiology</a>. We will walk through a very simple example of 1 dimensional diffusion across a membrane and how to solve the differential equation numerically with python.</p>
+<p>We will be using <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.ode.html">ode</a> from scipy integrate package.</p>
+                    <a class="btn btn-default btn-xs" href="/en/diffusion_1d.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2><a href="/en/about.html">About this site</a></h2>
+                <div class="summary">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>What is this site about ?</strong></p>
+<p>Hi ! I am a bioprocess engineer who is fascinated by the python ecosystem. Since I discovered python, I am learning every day new and interesting things. This blog is one of those things. If you have any questions, feedback or found spelling mistakes, please feel free to contact my per mail. If some of the code snippets might help you on your way, feel free to use them as you wish.</p>
+                    <a class="btn btn-default btn-xs" href="/en/about.html">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -289,13 +353,13 @@ This is a good day for a good day            </a>
       </div>
    </div>
 </footer>
-<script src="/theme/js/jquery.min.js"></script>
+<script src="/en/./theme/js/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/theme/js/bootstrap.min.js"></script>
+<script src="/en/./theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="/theme/js/respond.min.js"></script>
+<script src="/en/./theme/js/respond.min.js"></script>
 
 
 
