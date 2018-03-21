@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>This is a good day for a good day - ODEs</title><link href="/en/" rel="alternate"></link><link href="/feeds/odes.atom.xml" rel="self"></link><id>/en/</id><updated>2018-02-25T23:00:00+01:00</updated><entry><title>Coupled ODEs</title><link href="/en/coupled_ode.html" rel="alternate"></link><published>2018-02-25T23:00:00+01:00</published><updated>2018-02-25T23:00:00+01:00</updated><author><name>Moritz Imendörffer</name></author><id>tag:None,2018-02-25:/en/coupled_ode.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>This is a good day for a good day - ODEs</title><link href="http://MoritzImendoerffer.github.io/en/" rel="alternate"></link><link href="http://MoritzImendoerffer.github.io/feeds/odes.atom.xml" rel="self"></link><id>http://MoritzImendoerffer.github.io/en/</id><updated>2018-02-25T23:00:00+01:00</updated><entry><title>Coupled ODEs</title><link href="http://MoritzImendoerffer.github.io/en/coupled_ode.html" rel="alternate"></link><published>2018-02-25T23:00:00+01:00</published><updated>2018-02-25T23:00:00+01:00</updated><author><name>Moritz Imendörffer</name></author><id>tag:moritzimendoerffer.github.io,2018-02-25:/en/coupled_ode.html</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -1217,7 +1217,7 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="python"></category><category term="diffusion"></category><category term="scipy"></category><category term="matplotlib"></category></entry><entry><title>One dimensional diffusion across a membrane</title><link href="/en/diffusion_1d.html" rel="alternate"></link><published>2018-02-24T01:00:00+01:00</published><updated>2018-02-24T01:00:00+01:00</updated><author><name>Moritz Imendörffer</name></author><id>tag:None,2018-02-24:/en/diffusion_1d.html</id><summary type="html">
+</content><category term="python"></category><category term="diffusion"></category><category term="scipy"></category><category term="matplotlib"></category></entry><entry><title>One dimensional diffusion across a membrane</title><link href="http://MoritzImendoerffer.github.io/en/diffusion_1d.html" rel="alternate"></link><published>2018-02-24T01:00:00+01:00</published><updated>2018-02-24T01:00:00+01:00</updated><author><name>Moritz Imendörffer</name></author><id>tag:moritzimendoerffer.github.io,2018-02-24:/en/diffusion_1d.html</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
