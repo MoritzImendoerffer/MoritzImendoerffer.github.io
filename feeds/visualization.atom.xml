@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>This is a good day for a good day - Visualization</title><link href="/" rel="alternate"></link><link href="/feeds/visualization.atom.xml" rel="self"></link><id>/</id><updated>2018-03-22T01:00:00+01:00</updated><entry><title>Pretty plots with Matplotlib part 1</title><link href="/matplotlib_part1.html" rel="alternate"></link><published>2018-03-22T01:00:00+01:00</published><updated>2018-03-22T01:00:00+01:00</updated><author><name>Moritz Imendörffer</name></author><id>tag:None,2018-03-22:/matplotlib_part1.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>This is a good day for a good day - Visualization</title><link href="http://MoritzImendoerffer.github.io/" rel="alternate"></link><link href="http://MoritzImendoerffer.github.io/feeds/visualization.atom.xml" rel="self"></link><id>http://MoritzImendoerffer.github.io/</id><updated>2018-03-22T01:00:00+01:00</updated><entry><title>Pretty plots with Matplotlib part 1</title><link href="http://MoritzImendoerffer.github.io/matplotlib_part1.html" rel="alternate"></link><published>2018-03-22T01:00:00+01:00</published><updated>2018-03-22T01:00:00+01:00</updated><author><name>Moritz Imendörffer</name></author><id>tag:moritzimendoerffer.github.io,2018-03-22:/matplotlib_part1.html</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;In designed experiments it is quite common to have multiple measurements at the same conditions (dplicates, triplicates etc.). From the perspective of data analysis that means, multiple points might share the same location on the x axis but the y values are different. There are many options which could be used for plotting, some of which are: &lt;a href="https://matplotlib.org/examples/statistics/index.html"&gt;Matplotlib style plots&lt;/a&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+&lt;p&gt;In designed experiments it is quite common to have multiple measurements at the same conditions (duplicates, triplicates etc.). From the perspective of data analysis that means, multiple points might share the same location on the x axis but the y values are different. There are many options which could be used for plotting, some of which are: &lt;a href="https://matplotlib.org/examples/statistics/index.html"&gt;Matplotlib style plots&lt;/a&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -980,8 +980,8 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;In designed experiments it is quite common to have multiple measurements at the same conditions (dplicates, triplicates etc.). From the perspective of data analysis that means, multiple points might share the same location on the x axis but the y values are different. There are many options which could be used for plotting, some of which are: &lt;a href="https://matplotlib.org/examples/statistics/index.html"&gt;Matplotlib style plots&lt;/a&gt;, &lt;a href="https://seaborn.pydata.org/generated/seaborn.pointplot.html"&gt;pointplot in seaborns&lt;/a&gt; or &lt;a href="https://seaborn.pydata.org/generated/seaborn.tsplot.html"&gt;time series plot in seaborn&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;For some datasets I developed my own way of plotting things. Especially, while looping over a grouped dataframe, I found that none of the standard plotting methods worked for me. Let me share with you my solution:&lt;/p&gt;
+&lt;p&gt;In designed experiments it is quite common to have multiple measurements at the same conditions (duplicates, triplicates etc.). From the perspective of data analysis that means, multiple points might share the same location on the x axis but the y values are different. There are many options which could be used for plotting, some of which are: &lt;a href="https://matplotlib.org/examples/statistics/index.html"&gt;Matplotlib style plots&lt;/a&gt;, &lt;a href="https://seaborn.pydata.org/generated/seaborn.pointplot.html"&gt;pointplot in seaborns&lt;/a&gt; or &lt;a href="https://seaborn.pydata.org/generated/seaborn.tsplot.html"&gt;time series plot in seaborn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For some datasets I developed my own way of plotting things. Especially, while looping over a grouped dataframe. Let me share with you my solution:&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1302,36 +1302,14 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="python"></category><category term="matplotlib"></category></entry><entry><title>Pretty plots with Matplotlib part 2</title><link href="/pretty-plots-with-matplotlib-part-2.html" rel="alternate"></link><published>2018-03-12T01:00:00+01:00</published><updated>2018-03-12T01:00:00+01:00</updated><author><name>Moritz Imendörffer</name></author><id>tag:None,2018-03-12:/pretty-plots-with-matplotlib-part-2.html</id><summary type="html">
+</content><category term="python"></category><category term="matplotlib"></category></entry><entry><title>Pretty plots with Matplotlib part 2</title><link href="http://MoritzImendoerffer.github.io/pretty-plots-with-matplotlib-part-2.html" rel="alternate"></link><published>2018-03-12T01:00:00+01:00</published><updated>2018-03-12T01:00:00+01:00</updated><author><name>Moritz Imendörffer</name></author><id>tag:moritzimendoerffer.github.io,2018-03-12:/pretty-plots-with-matplotlib-part-2.html</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Analyzing-chromatograms-with-pandas-and-matplotlib"&gt;Analyzing chromatograms with pandas and matplotlib&lt;a class="anchor-link" href="#Analyzing-chromatograms-with-pandas-and-matplotlib"&gt;¶&lt;/a&gt;&lt;/h1&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Especially for timeseries data &lt;a href="https://pandas.pydata.org/"&gt;pandas&lt;/a&gt; excels. Together with matplotlib, chromatograms can be plotted in a very convenient way.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Data-analysis"&gt;Data analysis&lt;a class="anchor-link" href="#Data-analysis"&gt;¶&lt;/a&gt;&lt;/h1&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;I do read the exported excel sheet for the eluted and non eluted samples, set the time column  as index and convert it to a pandas &lt;a href="https://pandas.pydata.org/pandas-docs/stable/timedeltas.html"&gt;timedelta&lt;/a&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+&lt;p&gt;This notebook is the second part of a series showing some of my plots I came up with over time.&lt;/p&gt;
+&lt;p&gt;Especially for timeseries data &lt;a href="https://pandas.pydata.org/"&gt;pandas&lt;/a&gt; excels. Together with matplotlib, HPLC chromatograms can be plotted in a very convenient way.&lt;/p&gt;
+&lt;p&gt;In a typical lab, data is commonly exported by a software in some sort of "user friendly" format. Let us assume we have a bunch of chromatograms stored as [time, rau] pairs in several sheets within one Excel file. Each sheet name corresponds to the sample name. Currently I do not have a dummy data generator for chromatograms, so this example will be a theoretical one.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -2307,31 +2285,8 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Analyzing-chromatograms-with-pandas-and-matplotlib"&gt;Analyzing chromatograms with pandas and matplotlib&lt;a class="anchor-link" href="#Analyzing-chromatograms-with-pandas-and-matplotlib"&gt;¶&lt;/a&gt;&lt;/h1&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Especially for timeseries data &lt;a href="https://pandas.pydata.org/"&gt;pandas&lt;/a&gt; excels. Together with matplotlib, chromatograms can be plotted in a very convenient way.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Data-analysis"&gt;Data analysis&lt;a class="anchor-link" href="#Data-analysis"&gt;¶&lt;/a&gt;&lt;/h1&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;I do read the exported excel sheet for the eluted and non eluted samples, set the time column  as index and convert it to a pandas &lt;a href="https://pandas.pydata.org/pandas-docs/stable/timedeltas.html"&gt;timedelta&lt;/a&gt;  object.&lt;/p&gt;
+&lt;p&gt;This notebook is the second part of a series showing some of my plots I came up with over time.&lt;/p&gt;
+&lt;p&gt;Especially for timeseries data &lt;a href="https://pandas.pydata.org/"&gt;pandas&lt;/a&gt; excels. Together with matplotlib, HPLC chromatograms can be plotted in a very convenient way.&lt;/p&gt;
 &lt;p&gt;In a typical lab, data is commonly exported by a software in some sort of "user friendly" format. Let us assume we have a bunch of chromatograms stored as [time, rau] pairs in several sheets within one Excel file. Each sheet name corresponds to the sample name. Currently I do not have a dummy data generator for chromatograms, so this example will be a theoretical one.&lt;/p&gt;
 &lt;p&gt;In this example we will parse an Excel file using pandas and append the data to a dataframe. We will convert the time axis to a &lt;a href="https://pandas.pydata.org/pandas-docs/stable/timedeltas.html"&gt;timedelta&lt;/a&gt; object and use the pandas magic to interpolate all chromatograms onto the same time axis.&lt;/p&gt;
 &lt;/div&gt;
