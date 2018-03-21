@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Moritz Imendörffer'
 SITENAME = 'This is a good day for a good day'
-SITEURL = 'http://MoritzImendoerffer.github.io'
+#SITEURL = 'http://MoritzImendoerffer.github.io'
 
 PATH = 'content'
 
@@ -65,7 +65,7 @@ THEME = "pelican-themes/pelican-bootstrap3"
 JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
-BOOTSTRAP_THEME =  'sandstone' #'simplex'
+BOOTSTRAP_THEME =  'simplex' #'sandstone' #
 # Display pages list on the top menu
 DISPLAY_PAGES_ON_MENU = True
 NOTEBOOK_DIR = 'content'

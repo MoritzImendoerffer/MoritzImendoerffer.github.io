@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-#SITEURL = 'http://MoritzImendoerffer.github.io'
+SITEURL = 'http://MoritzImendoerffer.github.io'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -22,3 +22,24 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+
+THEME = "pelican-themes/pelican-bootstrap3"
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
+BOOTSTRAP_THEME =  'simplex' #'sandstone' #
+
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATHS = ['./plugins', './pelican-plugins']
+PLUGINS = ['ipynb.markup', 'i18n_subsites', 'liquid_tags.img', 'liquid_tags.video',
+           'liquid_tags.youtube', 'liquid_tags.vimeo',
+           'liquid_tags.include_code', 'liquid_tags.notebook']
+I18N_TEMPLATES_LANG = 'en'
+
+I18N_SUBSITES = {
+    'en': {
+        'SITENAME': 'This is a good day for a good day',
+        }
+    }
+
