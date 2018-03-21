@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>This is a good day for a good day - About me</title><link href="http://MoritzImendoerffer.github.io/" rel="alternate"></link><link href="http://MoritzImendoerffer.github.io/feeds/about-me.atom.xml" rel="self"></link><id>http://MoritzImendoerffer.github.io/</id><updated>2018-02-23T00:00:00+01:00</updated><entry><title>About this site</title><link href="http://MoritzImendoerffer.github.io/about.html" rel="alternate"></link><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><author><name>Moritz Imendörffer</name></author><id>tag:moritzimendoerffer.github.io,2018-02-23:/about.html</id><content type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>This is a good day for a good day - About me</title><link href="http://MoritzImendoerffer.github.io/" rel="alternate"></link><link href="http://MoritzImendoerffer.github.io/feeds/about-me.atom.xml" rel="self"></link><id>http://MoritzImendoerffer.github.io/</id><updated>2018-02-23T00:00:00+01:00</updated><entry><title>About this site</title><link href="http://MoritzImendoerffer.github.io/about.html" rel="alternate"></link><published>2018-02-23T00:00:00+01:00</published><updated>2018-02-23T00:00:00+01:00</updated><author><name>Moritz Imendörffer</name></author><id>tag:moritzimendoerffer.github.io,2018-02-23:/about.html</id><summary type="html">
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;strong&gt;What is this site about ?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hi ! I am a bioprocess engineer who is fascinated by the python ecosystem. Since I discovered python, I am learning every day new and interesting things. This blog is one of those things. If you have any questions, feedback or found spelling mistakes, please feel free to contact my per mail. If some of the code snippets might help you on your way, feel free to use them as you wish.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -976,7 +982,7 @@ h6:hover .anchor-link {
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;&lt;strong&gt;What is this site about ?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;This is my data blog experiment. Everything under heavy development. If you find spelling mistakes, keep them. Cheers Moritz&lt;/p&gt;
+&lt;p&gt;Hi ! I am a bioprocess engineer who is fascinated by the python ecosystem. Since I discovered python, I am learning every day new and interesting things. This blog is one of those things. If you have any questions, feedback or found spelling mistakes, please feel free to contact my per mail. If some of the code snippets might help you on your way, feel free to use them as you wish.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1009,4 +1015,4 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="python"></category><category term="diffusion"></category><category term="scipy"></category><category term="matplotlib"></category></entry></feed>
+</content><category term="python"></category></entry></feed>
