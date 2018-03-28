@@ -23,7 +23,7 @@ AUTHOR_FEED_RSS = None
 LINKS = (('A great resource for mastering python', 'https://github.com/dabeaz/python-cookbook'),
 	 ('Scientific lecture notes for Python', 'https://www.scipy-lectures.org/'),
 	 ('10 minutes to pandas', 'https://pandas.pydata.org/pandas-docs/stable/10min.html'),
-	 ('Pandas without seaborn is like ham without butter', 'https://pandas.pydata.org/pandas-docs/stable/10min.html'),
+	 ('Pandas without seaborn is like jam without butter', 'https://pandas.pydata.org/pandas-docs/stable/10min.html'),
 	 ('A great datascience blog', 'https://www.dataquest.io/blog//'), 
 	 ('Pelican, a static site generator', 'http://getpelican.com/'),
          ('Python for microcontrollers', 'https://micropython.org/'),
