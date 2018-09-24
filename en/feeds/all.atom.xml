@@ -6700,8 +6700,7 @@ sol = odeint(ode_1d_diffusion, y0, t, args=(area_membrane, perm , volume_left, v
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;&lt;strong&gt;What is this site about ?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Hi ! I am a bioprocess engineer who fascinated by the python ecosystem. Since I discovered python, I am learning every day new and interesting things. This blog is one of them.&lt;/p&gt;
-&lt;p&gt;If you have any questions, feedback or found spelling mistakes, please feel free to contact my per mail. If some of the code snippets might help you on your way, feel free to use them as you wish.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
+&lt;p&gt;Hi ! I am a bioprocess engineer and I am fascinated by the python ecosystem and the opportunities the modern web enables us to do. If you found this blog, you either searched my name on the Internet or you are starting programming and are looking for some basic stuff. If some of the code snippets might help you on your way, feel free to use them as you wish.&lt;/p&gt;</summary><content type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -7678,8 +7677,7 @@ h6:hover .anchor-link {
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;&lt;strong&gt;What is this site about ?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Hi ! I am a bioprocess engineer who fascinated by the python ecosystem. Since I discovered python, I am learning every day new and interesting things. This blog is one of them.&lt;/p&gt;
-&lt;p&gt;If you have any questions, feedback or found spelling mistakes, please feel free to contact my per mail. If some of the code snippets might help you on your way, feel free to use them as you wish.&lt;/p&gt;
+&lt;p&gt;Hi ! I am a bioprocess engineer and I am fascinated by the python ecosystem and the opportunities the modern web enables us to do. If you found this blog, you either searched my name on the Internet or you are starting programming and are looking for some basic stuff. If some of the code snippets might help you on your way, feel free to use them as you wish.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
